@@ -1,0 +1,17 @@
+div {
+	margin: 8px;
+}
+label {
+	padding-left: 6px;
+}
+.main {
+	padding-bottom: 12px;
+}
+.heading {
+	font-size: 20px;
+	font-weight: bold;
+}
+#donateButton {
+	font-size: 11px;
+	background-color: #E5E5E5;
+}

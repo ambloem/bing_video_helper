@@ -1,0 +1,44 @@
+{
+  "extensionName": {
+    "message": "Bing Video Helper",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Search results link directly to the source rather than to Bing video player.",
+    "description": "Description of the extension."
+  },
+  "contextMenuHeading": {
+    "message": "Right-Click",
+    "description": "Heading for the 'context menu' ('right-click') section of the options page."
+  },
+  "enableContextMenu": {
+    "message": "Right-Click to Search Bing Video",
+    "description": "Label for the checkbox that enables the context menu."
+  },
+  "bingVideoSearchUrl": {
+    "message": "https://www.bing.com/videos/search?q=$QUERY$",
+    "description": "The url for bing video search when the user searches for $QUERY$.",
+    "placeholders": {
+      "QUERY" : {
+        "content" : "$1",
+        "example" : "beethoven+moonlight+sonata"
+      }
+    }
+  },
+  "searchBingVideo": {
+    "message": "Search Bing Video for \"%s\"",
+    "description": "Text for the 'search Bing Video' context menu. The %s is a placeholder for the highlighted text on the page."
+  },
+  "contactHeading": {
+    "message": "Contact",
+    "description": "Heading for the 'contact developer' section of the options page."
+  },
+  "contactInstructions": {
+    "message": "Please report bugs and submit feedback to bing.video.helper@gmail.com",
+    "description": "Instructions for contacting the developer."
+  },
+  "donate": {
+    "message": "Thank the developer ($$1)",
+    "description": "Label for the button that allows the user to donate money. The two dollar signs $$ is not a typo. It is necessary so that chrome.i18n.getMessage() interprets it as the string '$1' rather than the variable $1."
+  }
+}
